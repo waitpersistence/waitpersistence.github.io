@@ -5,7 +5,7 @@ post:
   math:
     enable: true        # 开启数学支持
     specific: false     # 设置为 false，则全文自动加载（方便测试）
-    engine: mathjax     # 渲染引擎使用 mathjax
+    engine: katex     # 渲染引擎使用 mathjax
 
 # 2. 开启代码高亮
 code:

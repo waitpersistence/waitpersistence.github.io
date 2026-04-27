@@ -1,0 +1,24 @@
+# --- Fluid 主题核心配置 ---
+
+# 1. 开启数学公式 (LaTeX)
+post:
+  math:
+    enable: true        # 开启数学支持
+    specific: false     # 设置为 false，则全文自动加载（方便测试）
+    engine: mathjax     # 渲染引擎使用 mathjax
+
+# 2. 开启代码高亮
+code:
+  copy_btn: true
+  highlight:
+    enable: true
+    lib: "prismjs"  # 改为使用 prismjs
+  prismjs:
+    # 确保加载了 julia 和 cpp 语言包
+    preprocess: true
+    line_number: true
+    # 如果还是不亮，可以指定从 CDN 加载
+
+# 3. 导航栏设置 (按需修改)
+navbar:
+  blog_title: "Wait Persistence" # 你的博客标题

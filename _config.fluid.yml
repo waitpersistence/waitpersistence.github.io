@@ -22,3 +22,9 @@ code:
 # 3. 导航栏设置 (按需修改)
 navbar:
   blog_title: "Wait Persistence" # 你的博客标题
+
+# 主页配置
+index:
+  slogan:
+    enable: true
+    text: "Wait Persistence"
